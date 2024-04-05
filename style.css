@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.block {
+    border: 1px solid;
+    border-color: black;
+    flex: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: auto
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.red-element {
+    background-color: red;
+}
